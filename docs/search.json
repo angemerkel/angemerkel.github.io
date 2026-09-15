@@ -117,5 +117,47 @@
     "title": "About",
     "section": "",
     "text": "I write about some of these ideas in Building Bioinformatics, where I reflect on bioinformatics, software engineering, workflows and research infrastructure.\nI am also documenting what I am learning about machine learning and generative AI in Catching up with AI.\nFor a more structured overview of my work, see Projects, Experience, or my CV."
+  },
+  {
+    "objectID": "experience.html",
+    "href": "experience.html",
+    "title": "Experience",
+    "section": "",
+    "text": "My work experience spans quite different research environments: from basic and discovery research, through high-throughput genomics at a sequencing centre, to building and leading a bioinformatics core facility within a translational biomedical research institute.\n\n\n\n\n2021–2025\n\n\n\nJosep Carreras Leukaemia Research Institute (IJC), Barcelona\nI built and led the institute’s bioinformatics core facility, supporting research groups across leukemia, immunology and other biomedical research areas.\nMy role combined scientific bioinformatics with team leadership and research support, as well as developing the processes, workflows and infrastructure needed to provide a sustainable bioinformatics service.\nThe work ranged from individual research projects to developing some of the broader bioinformatics environment within the institute, including data management, reproducible workflows, computational infrastructure, training and collaboration with experimental scientists and clinicians.\n\n\n\n\n\n\n\n2013–2019\n\n\n\nNational Centre for Genomic Analysis (CNAG-CRG), Barcelona\nI worked in a sequencing-centre environment on large-scale genomics and epigenomics projects, with a particular focus on DNA methylation and whole-genome bisulfite sequencing.\nMuch of my work was connected to the BLUEPRINT Epigenome project and the study of DNA methylation during hematopoietic differentiation and in leukemia. I also worked on projects in other biomedical research areas such as Inflammatory Bowels Disease (IBD).\nWorking at a sequencing centre brought together biological research with the computational challenges of processing large volumes of sequencing data. My work included data analysis, computational methods and the development of pipelines and software, including contributions to gemBS and gemBSR.\n\n\n\n\n\n\n\n2012–2013\n\n\n\nRIKEN Omics Science Center, Yokohama\nI worked on the computational analysis of transcription and transposable element activity during early zebrafish development, integrating CAGE and ChIP-seq data.\n\n\n\n\n2009–2012\n\n\n\nCentre for Genomic Regulation (CRG), Barcelona\nI worked on transcriptomics and alternative splicing as part of the ENCODE project, developing and applying computational methods for large-scale RNA-seq analysis.\nThis included work on GRAPE, a computational pipeline developed for the analysis of RNA-seq data within ENCODE.\n\n\n\n\n\n\n\nPhD · 2008\n\n\n\nUniversity of Canterbury, Christchurch, New Zealand\nMy doctoral research focused on microsatellite evolution, combining molecular biology with computational approaches to study short tandem repeats in yeast.\nIt was during my PhD that I increasingly moved towards computational biology and bioinformatics."
+  },
+  {
+    "objectID": "experience.html#translational-research-bioinformatics-core-facility",
+    "href": "experience.html#translational-research-bioinformatics-core-facility",
+    "title": "Experience",
+    "section": "",
+    "text": "2021–2025\n\n\n\nJosep Carreras Leukaemia Research Institute (IJC), Barcelona\nI built and led the institute’s bioinformatics core facility, supporting research groups across leukemia, immunology and other biomedical research areas.\nMy role combined scientific bioinformatics with team leadership and research support, as well as developing the processes, workflows and infrastructure needed to provide a sustainable bioinformatics service.\nThe work ranged from individual research projects to developing some of the broader bioinformatics environment within the institute, including data management, reproducible workflows, computational infrastructure, training and collaboration with experimental scientists and clinicians."
+  },
+  {
+    "objectID": "experience.html#high-throughput-genomics",
+    "href": "experience.html#high-throughput-genomics",
+    "title": "Experience",
+    "section": "",
+    "text": "2013–2019\n\n\n\nNational Centre for Genomic Analysis (CNAG-CRG), Barcelona\nI worked in a sequencing-centre environment on large-scale genomics and epigenomics projects, with a particular focus on DNA methylation and whole-genome bisulfite sequencing.\nMuch of my work was connected to the BLUEPRINT Epigenome project and the study of DNA methylation during hematopoietic differentiation and in leukemia. I also worked on projects in other biomedical research areas such as Inflammatory Bowels Disease (IBD).\nWorking at a sequencing centre brought together biological research with the computational challenges of processing large volumes of sequencing data. My work included data analysis, computational methods and the development of pipelines and software, including contributions to gemBS and gemBSR."
+  },
+  {
+    "objectID": "experience.html#basic-discovery-research",
+    "href": "experience.html#basic-discovery-research",
+    "title": "Experience",
+    "section": "",
+    "text": "2012–2013\n\n\n\nRIKEN Omics Science Center, Yokohama\nI worked on the computational analysis of transcription and transposable element activity during early zebrafish development, integrating CAGE and ChIP-seq data.\n\n\n\n\n2009–2012\n\n\n\nCentre for Genomic Regulation (CRG), Barcelona\nI worked on transcriptomics and alternative splicing as part of the ENCODE project, developing and applying computational methods for large-scale RNA-seq analysis.\nThis included work on GRAPE, a computational pipeline developed for the analysis of RNA-seq data within ENCODE."
+  },
+  {
+    "objectID": "experience.html#education",
+    "href": "experience.html#education",
+    "title": "Experience",
+    "section": "",
+    "text": "PhD · 2008\n\n\n\nUniversity of Canterbury, Christchurch, New Zealand\nMy doctoral research focused on microsatellite evolution, combining molecular biology with computational approaches to study short tandem repeats in yeast.\nIt was during my PhD that I increasingly moved towards computational biology and bioinformatics."
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Projects\nThis page is under development."
   }
 ]

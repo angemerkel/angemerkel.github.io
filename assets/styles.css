@@ -765,6 +765,7 @@ section.level2 > h2::before {
   }
 }
 
+
 /* ============================================================
    About page
    ============================================================ */
@@ -781,4 +782,90 @@ section.level2 > h2::before {
   max-width: none;
   margin-left: 0;
   margin-right: 0;
+}
+
+
+/* ============================================================
+   Experience page
+   ============================================================ */
+
+.experience-page {
+  max-width: 920px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.experience-page > h1 {
+  margin-top: 3rem;
+  margin-bottom: 1.5rem;
+  color: var(--am-black);
+  font-size: 2.5rem;
+  font-weight: 650;
+  letter-spacing: -0.03em;
+}
+
+.experience-page > p {
+  font-size: 1.05rem;
+  line-height: 1.75;
+  margin-bottom: 3rem;
+}
+
+.experience-page section.level2 {
+  margin-bottom: 3.4rem;
+  padding-top: 1.8rem;
+}
+
+.experience-page section.level2 > h2 {
+  font-size: 1.45rem;
+  margin-bottom: 2rem;
+}
+
+.experience-entry {
+  position: relative;
+  margin-bottom: 3rem;
+  padding-left: 115px;
+}
+
+.experience-entry:last-child {
+  margin-bottom: 0;
+}
+
+.experience-period {
+  position: absolute;
+  left: 0;
+  top: 0.15rem;
+  width: 90px;
+  color: var(--am-muted);
+  font-size: 0.82rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+}
+
+.experience-entry h3 {
+  margin-top: 0;
+  margin-bottom: 0.25rem;
+  color: var(--am-black);
+  font-size: 1.15rem;
+  font-weight: 600;
+}
+
+.experience-entry h3 + p {
+  margin-top: 0;
+}
+
+.experience-entry p {
+  line-height: 1.75;
+}
+
+@media (max-width: 768px) {
+  .experience-entry {
+    padding-left: 0;
+  }
+
+  .experience-period {
+    position: static;
+    display: block;
+    width: auto;
+    margin-bottom: 0.4rem;
+  }
 }
