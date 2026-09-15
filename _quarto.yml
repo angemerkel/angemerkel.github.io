@@ -4,23 +4,28 @@ project:
 
 website:
   title: "Angelika Merkel"
+
   navbar:
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
-      - experience.qmd
-      - projects.qmd
-      - writing.qmd
+      - href: about.qmd
+        text: About
+      - href: experience.qmd
+        text: Experience
+      - href: projects.qmd
+        text: Projects
+
     right:
       - icon: github
         href: https://github.com/angemerkel
+        aria-label: GitHub
 
 format:
   html:
     theme: cosmo
     css: assets/styles.css
-    toc: true
+    toc: false
+    include-in-header: includes/head.html
 
 editor: visual
-

@@ -1,11 +1,156 @@
 ---
-title: "angemerkel.github.io"
+page-layout: full
+toc: false
 ---
 
-This is a Quarto website.
+::: {.column-page}
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
 
-```{r}
-1 + 1
-```
+::: {.hero}
+
+::: {.hero-content}
+
+<div class="hero-eyebrow">
+BIOINFORMATICS · BIOMEDICAL DATA SCIENCE · SCIENTIFIC COMPUTING
+</div>
+
+# Angelika Merkel, PhD
+
+## Connecting science, data and systems.
+
+I work at the intersection of **biology, data, technology and people** — translating biological questions into the data, tools and systems needed to answer them.
+
+:::
+
+
+::: {.hero-visual}
+
+<img src="assets/portrait.jpg"
+     class="hero-portrait"
+     alt="Portrait of Angelika Merkel">
+
+<div class="network-visual" aria-hidden="true">
+  <span class="network-line line-1"></span>
+  <span class="network-line line-2"></span>
+  <span class="network-line line-3"></span>
+  <span class="network-line line-4"></span>
+
+  <span class="network-node node-1"></span>
+  <span class="network-node node-2"></span>
+  <span class="network-node node-3"></span>
+  <span class="network-node node-4"></span>
+  <span class="network-node node-5"></span>
+  <span class="network-node node-6"></span>
+</div>
+
+:::
+
+:::
+
+
+## Areas of work
+
+:::: {.columns}
+
+::: {.column width="33%" .area-of-work .area-science}
+
+<div class="area-icon">
+<svg viewBox="0 0 64 64" aria-hidden="true">
+  <path d="M20 6 C20 20, 44 20, 44 32 C44 44, 20 44, 20 58" />
+  <path d="M44 6 C44 20, 20 20, 20 32 C20 44, 44 44, 44 58" />
+  <line x1="23" y1="14" x2="41" y2="14" />
+  <line x1="21" y1="23" x2="43" y2="23" />
+  <line x1="21" y1="41" x2="43" y2="41" />
+  <line x1="23" y1="50" x2="41" y2="50" />
+</svg>
+</div>
+
+### Epigenomics & computational genomics
+
+DNA methylation, epigenetic regulation and genomic analysis in
+hematopoiesis, leukemia and cancer.
+
+[Explore →](projects.qmd)
+
+:::
+
+
+::: {.column width="33%" .area-of-work .area-data}
+
+<div class="area-icon">
+<i class="bi bi-database" aria-hidden="true"></i>
+</div>
+
+### Bioinformatics infrastructure
+
+Designing the systems, processes and working practices that support
+bioinformatics teams and research facilities.
+
+[Explore →](projects.qmd)
+
+:::
+
+
+::: {.column width="33%" .area-of-work .area-systems}
+
+<div class="area-icon">
+<i class="bi bi-gear" aria-hidden="true"></i>
+</div>
+
+### Scientific software & workflows
+
+Tools, pipelines and reproducible workflows for genomic data analysis,
+including gemBS/gemBSR and EPipe.
+
+[Explore →](projects.qmd)
+
+:::
+
+::::
+
+
+## Writing
+
+:::: {.columns}
+
+::: {.column width="50%" .writing-item}
+
+### Building Bioinformatics
+
+<span class="writing-label">WHAT I'VE LEARNED</span>
+
+Practical thoughts on bioinformatics, software engineering,
+reproducibility, workflows and research computing infrastructure.
+
+[Read Building Bioinformatics →](https://angemerkel.github.io/building-bioinformatics/)
+
+:::
+
+
+::: {.column width="50%" .writing-item}
+
+### Catching up with AI
+
+<span class="writing-label">WHAT I'M LEARNING</span>
+
+Notes and experiments from exploring machine learning, generative AI
+and their potential role in biomedical research and beyond.
+
+[Explore Catching up with AI →](https://angemerkel.github.io/catching-up-with-ai/)
+
+:::
+
+::::
+
+
+::: {.site-links}
+
+[GitHub](https://github.com/angemerkel) ·
+[LinkedIn](https://www.linkedin.com/in/angelika-merkel-05813085/) ·
+[Publications](https://orcid.org/0000-0001-5164-6803) ·
+
+
+:::
+
+
+:::
