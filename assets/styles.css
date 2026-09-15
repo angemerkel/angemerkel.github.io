@@ -776,7 +776,9 @@ section.level2 > h2::before {
   margin-right: auto;
 }
 
-.about-page > h1,
+.about-page > h1 {
+  margin-left: 0;
+}
 .about-page > p,
 .about-page section.level2 {
   max-width: none;
