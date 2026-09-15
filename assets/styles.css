@@ -764,3 +764,21 @@ section.level2 > h2::before {
     padding-bottom: 2rem;
   }
 }
+
+/* ============================================================
+   About page
+   ============================================================ */
+
+.about-page {
+  max-width: 920px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.about-page > h1,
+.about-page > p,
+.about-page section.level2 {
+  max-width: none;
+  margin-left: 0;
+  margin-right: 0;
+}

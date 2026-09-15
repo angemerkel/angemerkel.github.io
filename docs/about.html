@@ -20,41 +20,6 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for syntax highlighting */
-html { -webkit-text-size-adjust: 100%; }
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-}
 </style>
 
 
@@ -102,6 +67,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     "search-label": "Search"
   }
 }</script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
 
 <link rel="stylesheet" href="assets/styles.css">
@@ -133,24 +99,17 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <span class="nav-link">
-<span class="menu-text">experience.qmd</span>
-    </span>
+    <a class="nav-link" href="./experience.html"> 
+<span class="menu-text">Experience</span></a>
   </li>  
   <li class="nav-item">
-    <span class="nav-link">
-<span class="menu-text">projects.qmd</span>
-    </span>
-  </li>  
-  <li class="nav-item">
-    <span class="nav-link">
-<span class="menu-text">writing.qmd</span>
-    </span>
+    <a class="nav-link" href="./projects.html"> 
+<span class="menu-text">Projects</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/angemerkel"> <i class="bi bi-github" role="img">
+    <a class="nav-link" href="https://github.com/angemerkel"> <i class="bi bi-github" role="img" aria-label="GitHub">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
@@ -162,14 +121,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
-    </div>
+    
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content page-columns page-full column-body" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -178,7 +135,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 
-<div class="quarto-title-meta">
+<div class="quarto-title-meta column-body">
 
     
   
@@ -190,12 +147,33 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
-<p>About this site</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="dv">1</span> <span class="sc">+</span> <span class="dv">1</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>[1] 2</code></pre>
-</div>
+<div class="column-page about-page">
+<p>I am a bioinformatician and computational biologist with a background spanning genomics, epigenetics, scientific software and research computing.</p>
+<p>I started in biology and moved into bioinformatics at a time when the field itself was rapidly changing. Over the years, my work has changed from individual data analyses to developing pipelines and software, managing data, working on large collaborative projects, and eventually building and leading a bioinformatics core facility.</p>
+<p>I have always been interested in the space between the biological question and the computational solution: understanding the science, working with the data, choosing or developing the right tools, and creating the systems that allow this work to be done reproducibly and sustainably.</p>
+<section id="science-and-bioinformatics" class="level2">
+<h2 class="anchored" data-anchor-id="science-and-bioinformatics">Science and bioinformatics</h2>
+<p>My scientific background is in genomics and molecular biology, with a strong focus on epigenomics and gene regulation. I have worked with genomic and epigenomic data across hematopoiesis, leukemia and cancer, as well as other biomedical research areas.</p>
+<p>Much of my work has involved DNA methylation, alongside transcriptomics and other functional genomics approaches.</p>
+</section>
+<section id="from-analysis-to-systems" class="level2">
+<h2 class="anchored" data-anchor-id="from-analysis-to-systems">From analysis to systems</h2>
+<p>As bioinformatics has evolved, so has my work.</p>
+<p>What started with data analysis and computational methods increasingly expanded into scientific software, reproducible workflows, data management, HPC environments and research infrastructure.</p>
+<p>Leading a bioinformatics core facility made these connections very visible. Good bioinformatics depends not only on the analysis itself, but also on how data enters a project, how workflows are run, how results are documented, how software and data are maintained, and how scientists and technical teams work together.</p>
+<p>This broader view of computational research is now an essential part of how I think about bioinformatics.</p>
+</section>
+<section id="where-i-am-going" class="level2">
+<h2 class="anchored" data-anchor-id="where-i-am-going">Where I am going</h2>
+<p>I am currently extending my background towards machine learning and AI-enabled biomedical research.</p>
+<p>My interest is not in AI as a separate discipline, but in how these methods can become useful parts of scientific practice — integrated with biological knowledge, research data, computational workflows and reproducible infrastructure.</p>
+</section>
+<section id="beyond-the-cv" class="level2">
+<h2 class="anchored" data-anchor-id="beyond-the-cv">Beyond the CV</h2>
+<p>I write about some of these ideas in <a href="https://angemerkel.github.io/building-bioinformatics/">Building Bioinformatics</a>, where I reflect on bioinformatics, software engineering, workflows and research infrastructure.</p>
+<p>I am also documenting what I am learning about machine learning and generative AI in <a href="https://angemerkel.github.io/catching-up-with-ai/">Catching up with AI</a>.</p>
+<p>For a more structured overview of my work, see <a href="./projects.html">Projects</a>, <a href="./experience.html">Experience</a>, or my CV.</p>
+</section>
 </div>
 
 
