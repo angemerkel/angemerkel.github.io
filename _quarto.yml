@@ -1,0 +1,26 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Angelika Merkel"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+      - experience.qmd
+      - projects.qmd
+      - writing.qmd
+    right:
+      - icon: github
+        href: https://github.com/angemerkel
+
+format:
+  html:
+    theme: cosmo
+    css: assets/styles.css
+    toc: true
+
+editor: visual
+
