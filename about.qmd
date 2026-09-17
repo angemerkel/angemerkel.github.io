@@ -1,81 +1,45 @@
 ---
-title: "About"
 page-layout: full
 toc: false
 ---
 
 ::: {.column-page .about-page}
 
+# About
 
-I am a bioinformatician and computational biologist with a background
-spanning genomics, epigenetics, scientific software and research
-computing.
+I am a bioinformatician and computational biologist with a background spanning genomics, epigenetics, scientific software and research computing.
 
-I started in biology and moved into bioinformatics at a time when the
-field itself was rapidly changing. Over the years, my work has changed
-from individual data analyses to developing pipelines and software,
-managing data, working on large collaborative projects, and eventually
-building and leading a bioinformatics core facility.
+I started in biology and moved into bioinformatics at a time when the field was still establishing itself as such. Over the years, my work has changed from individual data analyses to developing pipelines and software, managing data, working on large collaborative projects, and eventually building and leading a bioinformatics core facility.
 
-I have always been interested in the space between the biological
-question and the computational solution: understanding the science,
-working with the data, choosing or developing the right tools, and
-creating the systems that allow this work to be done reproducibly and
-sustainably.
-
+I have always been interested in the path from the biological question to the computational solution - understanding the science, working with the data, choosing or developing the right tools, and creating the systems that allow this work to be done reproducibly and sustainably.
 
 ## Science and bioinformatics
 
-My scientific background is in genomics and molecular biology, with a
-strong focus on epigenomics and gene regulation. I have worked with
-genomic and epigenomic data across hematopoiesis, leukemia and cancer,
-as well as other biomedical research areas.
+My scientific background is in genomics and molecular biology, with a strong focus on epigenomics and gene regulation. I have worked with genomic and epigenomic data across hematopoiesis, leukemia and cancer, as well as other biomedical research areas.
 
-Much of my work has involved DNA methylation, alongside transcriptomics
-and other functional genomics approaches.
-
+Much of my work has involved DNA methylation, alongside transcriptomics and other functional genomics approaches.
 
 ## From analysis to systems
 
 As bioinformatics has evolved, so has my work.
 
-What started with data analysis and computational methods increasingly
-expanded into scientific software, reproducible workflows, data
-management, HPC environments and research infrastructure.
+What started with data analysis and computational methods increasingly turned into scientific software, reproducible workflows, data management, HPC environments and research infrastructure.
 
-Leading a bioinformatics core facility made these connections very
-visible. Good bioinformatics depends not only on the analysis itself,
-but also on how data enters a project, how workflows are run, how results
-are documented, how software and data are maintained, and how scientists
-and technical teams work together.
+Leading a bioinformatics core facility made these connections very apparent. Good bioinformatics depends not only on the analysis itself, but also on how data enters a project, how workflows are run, how results are documented, how software and data are maintained, and how scientists and technical teams work together.
 
-This broader view of computational research is now an essential part of
-how I think about bioinformatics.
-
+As a result, these aspects have become an integral part of how I approach bioinformatics
 
 ## Where I am going
 
-I am currently extending my background towards machine learning and
-AI-enabled biomedical research.
+I am currently extending my background towards machine learning and AI-enabled biomedical research.
 
-My interest is not in AI as a separate discipline, but in how these
-methods can become useful parts of scientific practice — integrated
-with biological knowledge, research data, computational workflows and
-reproducible infrastructure.
-
+My interest is not in AI as a separate discipline, but in how these methods can become useful parts of scientific practice — integrated with biological knowledge, research data, computational workflows and reproducible infrastructure.
 
 ## Beyond the CV
 
-I write about some of these ideas in
-[Building Bioinformatics](https://angemerkel.github.io/building-bioinformatics/),
-where I reflect on bioinformatics, software engineering, workflows and
-research infrastructure.
+I write about some of these ideas in [Building Bioinformatics](https://angemerkel.github.io/building-bioinformatics/), where I reflect on bioinformatics, software engineering, workflows and research infrastructure.
 
-I am also documenting what I am learning about machine learning and
-generative AI in
-[Catching up with AI](https://angemerkel.github.io/catching-up-with-ai/).
+I am also documenting what I am learning about machine learning and generative AI in [Catching up with AI](https://angemerkel.github.io/catching-up-with-ai/).
 
-For a more structured overview of my work, see
-[Projects](projects.qmd), [Experience](experience.qmd), or my CV.
-
+For a more structured overview of my work, see [Projects](projects.qmd), [Experience](experience.qmd), or my CV.
 :::

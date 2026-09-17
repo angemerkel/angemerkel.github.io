@@ -5,7 +5,6 @@ toc: false
 
 ::: {.column-page}
 
-
 ::: {.hero}
 
 ::: {.hero-content}
@@ -20,8 +19,9 @@ BIOINFORMATICS · BIOMEDICAL DATA SCIENCE · SCIENTIFIC COMPUTING
 
 I work at the intersection of **biology, data, technology and people** — translating biological questions into the data, tools and systems needed to answer them.
 
-:::
+My work spans **computational biology, scientific software and research infrastructure**, with a particular background in **epigenomics, hematopoiesis and cancer**.
 
+:::
 
 ::: {.hero-visual}
 
@@ -47,7 +47,6 @@ I work at the intersection of **biology, data, technology and people** — trans
 
 :::
 
-
 ## Areas of work
 
 :::: {.columns}
@@ -67,13 +66,11 @@ I work at the intersection of **biology, data, technology and people** — trans
 
 ### Epigenomics & computational genomics
 
-DNA methylation, epigenetic regulation and genomic analysis in
-hematopoiesis, leukemia and cancer.
+DNA methylation, epigenetic regulation and genomic analysis in hematopoiesis, leukemia and cancer.
 
 [Explore →](projects.qmd)
 
 :::
-
 
 ::: {.column width="33%" .area-of-work .area-data}
 
@@ -83,13 +80,11 @@ hematopoiesis, leukemia and cancer.
 
 ### Bioinformatics infrastructure
 
-Designing the systems, processes and working practices that support
-bioinformatics teams and research facilities.
+Designing the systems, processes and working practices that support bioinformatics teams and research facilities.
 
 [Explore →](projects.qmd)
 
 :::
-
 
 ::: {.column width="33%" .area-of-work .area-systems}
 
@@ -99,15 +94,13 @@ bioinformatics teams and research facilities.
 
 ### Scientific software & workflows
 
-Tools, pipelines and reproducible workflows for genomic data analysis,
-including gemBS/gemBSR and EPipe.
+Tools, pipelines and reproducible workflows for genomic data analysis, including gemBS/gemBSR and EPipe.
 
 [Explore →](projects.qmd)
 
 :::
 
 ::::
-
 
 ## Writing
 
@@ -119,13 +112,11 @@ including gemBS/gemBSR and EPipe.
 
 <span class="writing-label">WHAT I'VE LEARNED</span>
 
-Practical thoughts on bioinformatics, software engineering,
-reproducibility, workflows and research computing infrastructure.
+Practical thoughts on bioinformatics, software engineering, reproducibility, workflows and research computing infrastructure.
 
 [Read Building Bioinformatics →](https://angemerkel.github.io/building-bioinformatics/)
 
 :::
-
 
 ::: {.column width="50%" .writing-item}
 
@@ -133,8 +124,7 @@ reproducibility, workflows and research computing infrastructure.
 
 <span class="writing-label">WHAT I'M LEARNING</span>
 
-Notes and experiments from exploring machine learning, generative AI
-and their potential role in biomedical research and beyond.
+Notes and experiments from exploring machine learning, generative AI and their potential role in biomedical research and beyond.
 
 [Explore Catching up with AI →](https://angemerkel.github.io/catching-up-with-ai/)
 
@@ -142,15 +132,12 @@ and their potential role in biomedical research and beyond.
 
 ::::
 
-
 ::: {.site-links}
 
 [GitHub](https://github.com/angemerkel) ·
 [LinkedIn](https://www.linkedin.com/in/angelika-merkel-05813085/) ·
-[Publications](https://orcid.org/0000-0001-5164-6803) ·
-
+[Publications](https://orcid.org/0000-0001-5164-6803)
 
 :::
-
 
 :::

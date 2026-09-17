@@ -80,7 +80,7 @@ a:hover {
 
   align-items: center;
 
-  padding: 4rem 0 3.25rem;
+  padding: 4rem 0 2.25rem;
 }
 
 
@@ -142,7 +142,6 @@ a:hover {
   background: var(--am-orange);
 }
 
-
 .hero-content p {
   max-width: 650px;
 
@@ -152,6 +151,13 @@ a:hover {
   line-height: 1.7;
 
   margin: 0;
+}
+
+
+/* Space between hero paragraphs */
+
+.hero-content p + p {
+  margin-top: 0.9rem;
 }
 
 
@@ -658,7 +664,11 @@ section.level2 > h2::before {
      ---------------------------------------------------------- */
 
   .hero {
-    padding: 2.5rem 0 3rem;
+    grid-template-columns: 1fr;
+
+    gap: 2rem;
+
+    padding: 2.5rem 0 2.25rem;
   }
 
   .hero-eyebrow {
@@ -776,14 +786,51 @@ section.level2 > h2::before {
   margin-right: auto;
 }
 
+
+/* Page title */
+
 .about-page > h1 {
-  margin-left: 0;
+  margin: 3rem 0 1.5rem;
+  color: var(--am-black);
+  font-size: 2.5rem;
+  font-weight: 650;
+  letter-spacing: -0.03em;
 }
-.about-page > p,
+
+
+/* Introduction */
+
+.about-page > p {
+  margin-top: 0;
+  margin-bottom: 1.25rem;
+  line-height: 1.75;
+}
+
+
+/* Sections */
+
 .about-page section.level2 {
-  max-width: none;
-  margin-left: 0;
-  margin-right: 0;
+  margin: 2.8rem 0 0;
+  padding-top: 1.8rem;
+  border-top: 1px solid var(--am-line);
+}
+
+.about-page section.level2 > h2 {
+  margin: 0 0 1.5rem;
+  font-size: 1.45rem;
+}
+
+
+/* Text within sections */
+
+.about-page section.level2 p {
+  margin-top: 0;
+  margin-bottom: 1.15rem;
+  line-height: 1.75;
+}
+
+.about-page section.level2 p:last-child {
+  margin-bottom: 0;
 }
 
 
@@ -860,6 +907,7 @@ section.level2 > h2::before {
 }
 
 @media (max-width: 768px) {
+
   .experience-entry {
     padding-left: 0;
   }
@@ -873,9 +921,9 @@ section.level2 > h2::before {
 }
 
 
-/* =========================================================
+/* ============================================================
    Projects
-   ========================================================= */
+   ============================================================ */
 
 .projects-page {
   max-width: 1100px;
