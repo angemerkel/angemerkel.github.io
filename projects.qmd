@@ -7,7 +7,7 @@ toc: false
 
 # Projects
 
-Selected projects from my work in computational genomics, bioinformatics
+Selected topics and projects from my work in computational genomics, bioinformatics
 infrastructure and scientific software. They reflect different parts of
 my work, from analysing biological data to developing computational
 tools and connecting them into research workflows.
@@ -25,33 +25,52 @@ tools and connecting them into research workflows.
 DNA methylation · eCLIP-seq · RIP-seq · Translational research
 </div>
 
-Collaborative research investigating mechanisms of gene regulation and
-potential molecular biomarkers across cancer, rare disease and cell
-differentiation.
+Collaborative research investigating mechanisms of gene regulation
+and potential molecular biomarkers in different biomedical contexts.
 
 The work includes DNA methylation profiling using microarrays, as well
 as eCLIP-seq and RIP-seq analyses to investigate post-transcriptional
 regulation through interactions between RNA molecules and RNA-binding
 proteins.
 
+<div class="project-links">
+
+[LHX1 study →](https://linkinghub.elsevier.com/retrieve/pii/S1600613524006877)
+
+[Rett syndrome study →](https://link.springer.com/article/10.1186/s12943-023-01809-8)
+
+[METTL1 study →](https://www.mdpi.com/1422-0067/24/2/1453)
+
+
+</div>
 :::
 
 
 ::: {.project-entry}
 
-### Hematopoietic and leukemia epigenomics
+### Hematopoietic epigenomics and hematological malignancies
 
 <div class="project-tags">
 DNA methylation · WGBS · BLUEPRINT · Integrative genomics
 </div>
 
-Research into DNA methylation and epigenomic regulation during normal
-hematopoietic differentiation and in leukemia, primarily within the
-BLUEPRINT project.
+Research into DNA methylation and epigenomic regulation during normal 
+hematopoietic differentiation and in leukemia, primarily within the BLUEPRINT
+project.
 
 The work combined large-scale whole-genome bisulfite sequencing with
 other genomic and epigenomic data to investigate normal differentiation
 and disease-associated changes.
+
+<div class="project-links">
+
+[Immune-system DNA methylation →](https://www.cell.com/cell-reports/fulltext/S2211-1247(16)31474-7?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS2211124716314747%3Fshowall%3Dtrue)
+
+[B-cell differentiation methylome →](https://pubmed.ncbi.nlm.nih.gov/26053498/)
+
+[Multiple myeloma epigenome →](https://pubmed.ncbi.nlm.nih.gov/25644835/)
+
+</div>
 
 :::
 

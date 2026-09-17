@@ -1086,3 +1086,44 @@ section.level2 > h2::before {
     border-bottom: none;
   }
 }
+
+/* Project links ---------------------------------------------- */
+
+.project-links {
+  margin-top: 1.4rem;
+  padding-top: 1rem;
+  border-top: 1px solid #ececec;
+}
+
+.project-links::before {
+  content: "SELECTED PUBLICATIONS";
+  display: block;
+  margin-bottom: 0.55rem;
+  color: var(--am-muted);
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.07em;
+}
+
+.project-links p {
+  display: inline;
+  margin: 0;
+}
+
+.project-links p:not(:last-child)::after {
+  content: " · ";
+  margin: 0 0.3rem;
+  color: #b5b5b5;
+}
+
+.project-links a {
+  display: inline;
+  margin: 0;
+  font-size: 0.86rem;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.project-links a:hover {
+  text-decoration: underline;
+}
