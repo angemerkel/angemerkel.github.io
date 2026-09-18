@@ -41,8 +41,8 @@ proteins.
 
 [METTL1 study →](https://www.mdpi.com/1422-0067/24/2/1453)
 
-
 </div>
+
 :::
 
 
@@ -54,9 +54,9 @@ proteins.
 DNA methylation · WGBS · BLUEPRINT · Integrative genomics
 </div>
 
-Research into DNA methylation and epigenomic regulation during normal 
-hematopoietic differentiation and in leukemia, primarily within the BLUEPRINT
-project.
+Research into DNA methylation and epigenomic regulation during normal
+hematopoietic differentiation and in hematological malignancies,
+primarily within the BLUEPRINT project.
 
 The work combined large-scale whole-genome bisulfite sequencing with
 other genomic and epigenomic data to investigate normal differentiation
@@ -139,12 +139,18 @@ capture, **EPipe** for reproducible analysis, HPC scheduling and
 DNA methylation arrays · Reproducible workflows · R
 </div>
 
-Development of a reproducible workflow for processing and analysing
+Development of a reproducible modular workflow for analysing and reporting
 Illumina DNA methylation array data.
 
 EPipe was developed within the bioinformatics core facility to
 standardize frequently requested analyses while retaining the
 flexibility needed for individual research projects.
+
+<div class="project-links">
+
+[GitHub repository →](https://github.com/ijcBIT/epipe)
+
+</div>
 
 :::
 
@@ -154,15 +160,25 @@ flexibility needed for individual research projects.
 ### BioForms
 
 <div class="project-tags">
-Metadata · Data capture · Research workflows
+Metadata · Ontologies · Data capture · Research workflows
 </div>
 
 Development of a tool for structured capture of research metadata and
 project information.
 
+I defined the scientific and functional requirements, including the
+metadata structure and ontologies, and worked with the software engineer
+in my team on the development and refinement of the tool.
+
 BioForms was designed to make metadata collection part of the research
 workflow and to provide structured information that could be used by
 downstream computational processes.
+
+<div class="project-links">
+
+[GitHub repository →](https://github.com/ijcBIT/BioForms)
+
+</div>
 
 :::
 
@@ -172,33 +188,53 @@ downstream computational processes.
 ### MethylationDB
 
 <div class="project-tags">
-DNA methylation · Data management · Research software
+DNA methylation · Data platform · Data visualization · Research infrastructure
 </div>
 
-Development of a database for organizing and accessing DNA methylation
-data and analysis results.
+Development of a platform for accessing, exploring and visualizing
+DNA methylation data and analysis results.
 
-MethylationDB formed part of the wider computational workflow connecting
-project metadata, analysis pipelines, computing infrastructure and
-research results.
+I supervised the redevelopment of an existing system through two major
+releases, working with software engineers, laboratory staff and researchers
+on the restructuring of the application and the redesign of its backend
+and frontend.
+
+MethylationDB was designed as a user-facing platform for the genomics
+core facility, allowing researchers to access and explore their data
+and compare results against a large reference collection derived from
+TCGA datasets.
 
 :::
 
 
 ::: {.project-entry}
 
-### gemBS & gemBSR
+### gemBS & WGBS analysis
 
 <div class="project-tags">
-WGBS · Pipeline development · R
+WGBS · Analysis workflows · R · Downstream analysis
 </div>
 
-Development of software for processing and analysing whole-genome
-bisulfite sequencing data.
+Work on computational workflows for processing and analysing
+whole-genome bisulfite sequencing data.
 
-I contributed to **gemBS**, a pipeline for high-throughput bisulfite
-sequencing analysis, and developed **gemBSR**, an R package for
-downstream analysis and interaction with gemBS results.
+I used gemBS extensively for large-scale WGBS analysis, contributing
+testing and feedback during its development, and developed a local R
+package for downstream analysis and exploration of gemBS results.
+
+gemBS was subsequently adopted for WGBS processing by ENCODE and has
+continued to be evaluated in large-scale benchmarking of DNA methylation
+analysis workflows.
+
+<div class="project-links">
+
+[gemBS publication →](https://academic.oup.com/bioinformatics/article/35/5/737/5077236)
+
+[ENCODE WGBS pipeline →](https://www.encodeproject.org/data-standards/wgbs-encode4/)
+
+[Pipeline Olympics →](https://academic.oup.com/nar/article/53/19/gkaf970/8294356)
+
+</div>
 
 :::
 
