@@ -3,90 +3,69 @@ page-layout: full
 toc: false
 ---
 
-::: {.column-page .experience-page}
+::::::::::::: {.column-page .experience-page}
 
 # Experience
 
-My work experience spans quite different research environments: from basic and
-discovery research, through high-throughput genomics at a sequencing
-centre, to building and leading a bioinformatics core facility within
-a translational biomedical research institute.
-
+I have worked across quite different research environments: from basic and discovery research, through high-throughput genomics at a sequencing centre, to building and leading a bioinformatics core facility within a translational biomedical research institute.
 
 ## Translational research & bioinformatics core facility
 
-::: {.experience-entry}
-
-<div class="experience-period">2021–2025</div>
+:::: experience-entry
+::: experience-period
+2021–2025
+:::
 
 ### Head of Bioinformatics Unit
 
 **Josep Carreras Leukaemia Research Institute (IJC), Barcelona**
 
-I built and led the institute's bioinformatics core facility, supporting
-research groups across leukemia, immunology and other biomedical
-research areas.
+I built and led the institute's bioinformatics core facility, supporting research groups across leukemia, immunology and other biomedical research areas.
 
-My role combined scientific bioinformatics with team leadership and
-research support, as well as developing the processes, workflows and
-infrastructure needed to provide a sustainable bioinformatics service.
+My role combined scientific bioinformatics with team leadership and research support, as well as developing the processes, workflows and infrastructure needed to provide a sustainable bioinformatics service.
 
-The work ranged from individual research projects to developing some of the 
-broader bioinformatics environment within the institute, including data management, 
-reproducible workflows, computational infrastructure, training and collaboration 
-with experimental scientists and clinicians.
+The work ranged from individual research projects to developing the broader bioinformatics environment needed to support them, including data management, reproducible workflows, computational infrastructure, training and collaboration with experimental scientists and clinicians.
 
-:::
-
+::::
 
 ## High-throughput genomics
 
-::: {.experience-entry}
-
-<div class="experience-period">2013–2019</div>
+:::: experience-entry
+::: experience-period
+2013–2019
+:::
 
 ### Postdoctoral Fellow
 
 **National Centre for Genomic Analysis (CNAG-CRG), Barcelona**
 
-I worked in a sequencing-centre environment on large-scale genomics and
-epigenomics projects, with a particular focus on DNA methylation and
-whole-genome bisulfite sequencing.
+I worked in a sequencing-centre environment on large-scale genomics and epigenomics projects, with a particular focus on DNA methylation and whole-genome bisulfite sequencing.
 
-Much of my work was connected to the BLUEPRINT Epigenome project and
-the study of DNA methylation during hematopoietic differentiation and
-in leukemia. I also worked on projects in other biomedical research
-areas such as Inflammatory Bowels Disease (IBD).
+Much of my work was connected to the BLUEPRINT Epigenome project and the study of DNA methylation during hematopoietic differentiation and associated malignancies. I also worked on projects in other biomedical research areas, including inflammatory bowel disease and neurodegenerative disease.
 
-Working at a sequencing centre brought together biological research
-with the computational challenges of processing large volumes of
-sequencing data. My work included data analysis, computational methods
-and the development of pipelines and software, including contributions
-to **gemBS** and **gemBSR**.
+Working at a sequencing centre brought together biological research with the computational challenges of processing large volumes of sequencing data. My work included data analysis, computational methods and the development and testing of analysis workflows. I used **gemBS** extensively for large-scale WGBS analysis, contributing testing and feedback during its development, and developed R tools for downstream analysis of its results.
 
-:::
-
+::::
 
 ## Basic & discovery research
 
-::: {.experience-entry}
-
-<div class="experience-period">2012–2013</div>
+:::: experience-entry
+::: experience-period
+2012–2013
+:::
 
 ### Postdoctoral Fellow
 
 **RIKEN Omics Science Center, Yokohama**
 
-I worked on the computational analysis of transcription and transposable
-element activity during early zebrafish development, integrating CAGE
-and ChIP-seq data.
+I worked on the computational analysis of transcription and transposable element activity during early zebrafish development, integrating CAGE and ChIP-seq data.
 
+::::
+
+:::: experience-entry
+::: experience-period
+2009–2012
 :::
-
-
-::: {.experience-entry}
-
-<div class="experience-period">2009–2012</div>
 
 ### Postdoctoral Fellow
 
@@ -94,29 +73,25 @@ and ChIP-seq data.
 
 I worked on transcriptomics and alternative splicing as part of the ENCODE project, developing and applying computational methods for large-scale RNA-seq analysis.
 
-This included work on **GRAPE**, a computational pipeline developed for
-the analysis of RNA-seq data within ENCODE.
+This included contributing to **GRAPE**, a computational pipeline developed for large-scale RNA-seq analysis within ENCODE.
 
-:::
-
+::::
 
 ## Education
 
-::: {.experience-entry}
-
-<div class="experience-period">PhD · 2008</div>
+:::: experience-entry
+::: experience-period
+PhD · 2008
+:::
 
 ### PhD in Biology
 
 **University of Canterbury, Christchurch, New Zealand**
 
-My doctoral research focused on microsatellite evolution, combining
-molecular biology with computational approaches to study short tandem
-repeats in yeast.
+My doctoral research focused on microsatellite evolution, combining molecular biology with computational approaches to study short tandem repeats in yeast.
 
-It was during my PhD that I increasingly moved towards computational
-biology and bioinformatics.
+It was during my PhD that I increasingly moved towards computational biology and bioinformatics.
 
-:::
+::::
 
-:::
+:::::::::::::

@@ -3,241 +3,188 @@ page-layout: full
 toc: false
 ---
 
-::: {.column-page .projects-page}
+::::::::::::::::::::::::::: {.column-page .projects-page}
 
 # Projects
 
-Selected topics and projects from my work in computational genomics, bioinformatics
-infrastructure and scientific software. They reflect different parts of
-my work, from analysing biological data to developing computational
-tools and connecting them into research workflows.
-
+Selected topics and projects from my work in computational genomics, bioinformatics infrastructure and scientific software. They reflect different parts of my work, from analysing biological data to developing computational tools and connecting them into research workflows.
 
 ## Epigenomics & computational genomics
 
-::: {.project-track}
+::::::::: project-track
 
-::: {.project-entry}
+::::: project-entry
 
 ### Gene regulation & biomarkers
 
-<div class="project-tags">
+::: project-tags
 DNA methylation · eCLIP-seq · RIP-seq · Translational research
-</div>
+:::
 
-Collaborative research investigating mechanisms of gene regulation
-and potential molecular biomarkers in different biomedical contexts.
+Collaborative research investigating mechanisms of gene regulation and potential molecular biomarkers in different biomedical contexts.
 
-The work includes DNA methylation profiling using microarrays, as well
-as eCLIP-seq and RIP-seq analyses to investigate post-transcriptional
-regulation through interactions between RNA molecules and RNA-binding
-proteins.
+The work includes DNA methylation profiling using microarrays, as well as eCLIP-seq and RIP-seq analyses to investigate post-transcriptional regulation through interactions between RNA molecules and RNA-binding proteins.
 
-<div class="project-links">
-
+::: project-links
 [LHX1 study →](https://linkinghub.elsevier.com/retrieve/pii/S1600613524006877)
 
 [Rett syndrome study →](https://link.springer.com/article/10.1186/s12943-023-01809-8)
 
 [METTL1 study →](https://www.mdpi.com/1422-0067/24/2/1453)
-
-</div>
-
 :::
 
+:::::
 
-::: {.project-entry}
+
+::::: project-entry
 
 ### Hematopoietic epigenomics and hematological malignancies
 
-<div class="project-tags">
+::: project-tags
 DNA methylation · WGBS · BLUEPRINT · Integrative genomics
-</div>
+:::
 
-Research into DNA methylation and epigenomic regulation during normal
-hematopoietic differentiation and in hematological malignancies,
-primarily within the BLUEPRINT project.
+Research into DNA methylation and epigenomic regulation during normal hematopoietic differentiation and in associated hematological malignancies, primarily within the BLUEPRINT project.
 
-The work combined large-scale whole-genome bisulfite sequencing with
-other genomic and epigenomic data to investigate normal differentiation
-and disease-associated changes.
+The work combined large-scale whole-genome bisulfite sequencing with other genomic and epigenomic data to investigate normal differentiation and disease-associated changes.
 
-<div class="project-links">
-
+::: project-links
 [Immune-system DNA methylation →](https://www.cell.com/cell-reports/fulltext/S2211-1247(16)31474-7?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS2211124716314747%3Fshowall%3Dtrue)
 
 [B-cell differentiation methylome →](https://pubmed.ncbi.nlm.nih.gov/26053498/)
 
 [Multiple myeloma epigenome →](https://pubmed.ncbi.nlm.nih.gov/25644835/)
-
-</div>
-
 :::
 
-:::
+:::::
+
+:::::::::
 
 
 ## Bioinformatics infrastructure
 
-::: {.project-track}
+::::::: project-track
 
-::: {.project-entry}
+:::: project-entry
 
 ### Building a bioinformatics core facility
 
-<div class="project-tags">
+::: project-tags
 Research infrastructure · Team · Processes · Reproducibility
-</div>
-
-Building the Bioinformatics Unit at the Josep Carreras Leukaemia
-Research Institute involved more than establishing an analysis service.
-
-The work included developing working practices for project intake and
-data management, reproducible analysis workflows, computational
-infrastructure, documentation and training, while supporting multiple
-research groups and projects.
-
-It shaped how I think about bioinformatics as an ecosystem connecting
-people, data, software and infrastructure.
-
 :::
 
+Building the Bioinformatics Unit at the Josep Carreras Leukaemia Research Institute involved more than establishing an analysis service.
 
-::: {.project-entry}
+The work included developing working practices for project intake and data management, reproducible analysis workflows, computational infrastructure, documentation and training, while supporting multiple research groups and projects.
+
+It shaped how I think about bioinformatics as an ecosystem that connects people, data, software and infrastructure.
+
+::::
+
+
+:::: project-entry
 
 ### Research computing and data workflows
 
-<div class="project-tags">
-HPC · Data management · Workflow integration · Research computing
-</div>
-
-Development of an integrated computational environment supporting DNA
-methylation array analysis, connecting metadata capture, reproducible
-analysis workflows, HPC computing and the organization of analysis
-results.
-
-The system brought together **BioForms** for structured metadata
-capture, **EPipe** for reproducible analysis, HPC scheduling and
-**MethylationDB** for organizing and accessing DNA methylation data.
-
-[Read more in Building Bioinformatics →](https://angemerkel.github.io/building-bioinformatics/)
-
+::: project-tags
+Research computing · FAIR data · Workflow integration · HPC
 :::
 
-:::
+Development of an integrated computational environment supporting DNA methylation array analysis, connecting structured metadata capture, reproducible analysis workflows, HPC computing and the organization of analysis results.
+
+The system brought together **BioForms** for structured metadata capture, **EPipe** for reproducible analysis, HPC scheduling and **MethylationDB** for organizing and accessing DNA methylation data.
+
+
+::::
+
+:::::::
 
 
 ## Scientific software & workflows
 
-::: {.project-track .project-track-software}
+:::::::::::::: {.project-track .project-track-software}
 
-::: {.project-entry}
+::::: project-entry
 
 ### EPipe
 
-<div class="project-tags">
+::: project-tags
 DNA methylation arrays · Reproducible workflows · R
-</div>
-
-Development of a reproducible modular workflow for analysing and reporting
-Illumina DNA methylation array data.
-
-EPipe was developed within the bioinformatics core facility to
-standardize frequently requested analyses while retaining the
-flexibility needed for individual research projects.
-
-<div class="project-links">
-
-[GitHub repository →](https://github.com/ijcBIT/epipe)
-
-</div>
-
 :::
 
+Development of a reproducible modular workflow for analysing and reporting Illumina DNA methylation array data.
 
-::: {.project-entry}
+EPipe was developed within the bioinformatics core facility to standardize frequently requested analyses while retaining the flexibility needed for individual research projects.
+
+::: project-links
+[GitHub repository →](https://github.com/ijcBIT/epipe)
+:::
+
+:::::
+
+
+::::: project-entry
 
 ### BioForms
 
-<div class="project-tags">
+::: project-tags
 Metadata · Ontologies · Data capture · Research workflows
-</div>
-
-Development of a tool for structured capture of research metadata and
-project information.
-
-I defined the scientific and functional requirements, including the
-metadata structure and ontologies, and worked with the software engineer
-in my team on the development and refinement of the tool.
-
-BioForms was designed to make metadata collection part of the research
-workflow and to provide structured information that could be used by
-downstream computational processes.
-
-<div class="project-links">
-
-[GitHub repository →](https://github.com/ijcBIT/BioForms)
-
-</div>
-
 :::
 
+Development of a tool for structured capture of research metadata and project information.
 
-::: {.project-entry}
+I defined the scientific and functional requirements, including the metadata structure and ontologies, and worked with the software engineer in my team on the development and refinement of the tool.
+
+BioForms was designed to make metadata collection part of the research workflow and to provide structured information that could be used by downstream computational processes.
+
+::: project-links
+[GitHub repository →](https://github.com/ijcBIT/BioForms)
+:::
+
+:::::
+
+
+:::: project-entry
 
 ### MethylationDB
 
-<div class="project-tags">
+::: project-tags
 DNA methylation · Data platform · Data visualization · Research infrastructure
-</div>
-
-Development of a platform for accessing, exploring and visualizing
-DNA methylation data and analysis results.
-
-I supervised the redevelopment of an existing system through two major
-releases, working with software engineers, laboratory staff and researchers
-on the restructuring of the application and the redesign of its backend
-and frontend.
-
-MethylationDB was designed as a user-facing platform for the genomics
-core facility, allowing researchers to access and explore their data
-and compare results against a large reference collection derived from
-TCGA datasets.
-
 :::
 
+Development of a platform for accessing, exploring and visualizing DNA methylation data and analysis results.
 
-::: {.project-entry}
+I supervised the redevelopment of an existing system through two major releases, working with software engineers, laboratory staff and researchers on the restructuring of the application and the redesign of its backend and frontend.
+
+MethylationDB was designed as a user-facing platform for the genomics core facility, allowing researchers to access and explore their data and compare results against a large reference collection derived from TCGA datasets.
+
+::::
+
+
+::::: project-entry
 
 ### gemBS & WGBS analysis
 
-<div class="project-tags">
+::: project-tags
 WGBS · Analysis workflows · R · Downstream analysis
-</div>
+:::
 
-Work on computational workflows for processing and analysing
-whole-genome bisulfite sequencing data.
+Work on computational workflows for processing and analysing whole-genome bisulfite sequencing data.
 
-I used gemBS extensively for large-scale WGBS analysis, contributing
-testing and feedback during its development, and developed a local R
-package for downstream analysis and exploration of gemBS results.
+I used **gemBS** extensively for large-scale WGBS analysis, contributing to its testing and providing feedback during development, and developed a local R package for downstream analysis and exploration of gemBS results.
 
-gemBS was subsequently adopted for WGBS processing by ENCODE and has
-continued to be evaluated in large-scale benchmarking of DNA methylation
-analysis workflows.
+gemBS was subsequently adopted for WGBS processing by ENCODE and has continued to be evaluated in large-scale benchmarking of DNA methylation analysis workflows.
 
-<div class="project-links">
-
+::: project-links
 [gemBS publication →](https://academic.oup.com/bioinformatics/article/35/5/737/5077236)
 
 [ENCODE WGBS pipeline →](https://www.encodeproject.org/data-standards/wgbs-encode4/)
 
 [Pipeline Olympics →](https://academic.oup.com/nar/article/53/19/gkaf970/8294356)
-
-</div>
-
 :::
 
-:::
+:::::
 
-:::
+::::::::::::::
+
+:::::::::::::::::::::::::::

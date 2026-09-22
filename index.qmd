@@ -66,7 +66,7 @@ My work spans **computational biology, scientific software and research infrastr
 
 ### Epigenomics & computational genomics
 
-DNA methylation, epigenetic regulation and genomic analysis in hematopoiesis, leukemia and cancer.
+DNA methylation, gene regulation and genomic analysis across hematopoiesis, cancer and other biomedical research areas.
 
 [Explore →](projects.qmd)
 
@@ -80,7 +80,7 @@ DNA methylation, epigenetic regulation and genomic analysis in hematopoiesis, le
 
 ### Bioinformatics infrastructure
 
-Designing the systems, processes and working practices that support bioinformatics teams and research facilities.
+Systems, processes and working practices that support bioinformatics teams and research facilities.
 
 [Explore →](projects.qmd)
 
@@ -94,7 +94,7 @@ Designing the systems, processes and working practices that support bioinformati
 
 ### Scientific software & workflows
 
-Tools, pipelines and reproducible workflows for genomic data analysis, including gemBS/gemBSR and EPipe.
+Tools and reproducible workflows for genomic data analysis, FAIR metadata capture and research data access.
 
 [Explore →](projects.qmd)
 
@@ -136,7 +136,7 @@ Notes and experiments from exploring machine learning, generative AI and their p
 
 [GitHub](https://github.com/angemerkel) ·
 [LinkedIn](https://www.linkedin.com/in/angelika-merkel-05813085/) ·
-[Publications](https://orcid.org/0000-0001-5164-6803)
+[ORCID](https://orcid.org/0000-0001-5164-6803)
 
 :::
 

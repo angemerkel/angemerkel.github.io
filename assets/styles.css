@@ -1112,3 +1112,124 @@ section.level2 > h2::before {
     scroll-snap-align: start;
   }
 }
+
+
+/* =========================================================
+   Secondary page intro visuals
+   ========================================================= */
+
+.page-intro {
+  position: relative;
+  isolation: isolate;
+}
+
+/* Keep all actual page content above the illustration */
+.page-intro > *:not(.page-intro-visual) {
+  position: relative;
+  z-index: 2;
+}
+
+.page-intro-visual {
+  position: absolute;
+  z-index: 1;
+  pointer-events: none;
+}
+
+
+/* ---------------------------------------------------------
+   About: biology → data → network
+   --------------------------------------------------------- */
+
+.about-visual {
+  top: 1.2rem;
+  right: -1rem;
+
+  width: 46%;
+  height: 15rem;
+
+  opacity: 0.55;
+
+  /*
+   * Fade from almost invisible behind the text
+   * to fully visible toward the right.
+   */
+  -webkit-mask-image:
+    linear-gradient(
+      to right,
+      transparent 0%,
+      rgba(0, 0, 0, 0.08) 18%,
+      rgba(0, 0, 0, 0.45) 45%,
+      black 72%
+    );
+
+  mask-image:
+    linear-gradient(
+      to right,
+      transparent 0%,
+      rgba(0, 0, 0, 0.08) 18%,
+      rgba(0, 0, 0, 0.45) 45%,
+      black 72%
+    );
+
+  background:
+    /* nodes */
+    radial-gradient(circle at 77% 24%, #62b7c2 0 5px, transparent 6px),
+    radial-gradient(circle at 88% 40%, #ef7d42 0 4px, transparent 5px),
+    radial-gradient(circle at 68% 55%, #70aeb7 0 8px, transparent 9px),
+    radial-gradient(circle at 93% 68%, #7f898c 0 5px, transparent 6px),
+    radial-gradient(circle at 58% 72%, #abd9de 0 4px, transparent 5px),
+
+    /* soft background forms */
+    radial-gradient(
+      ellipse at 74% 48%,
+      rgba(104, 184, 195, 0.12) 0 30%,
+      transparent 31%
+    ),
+    radial-gradient(
+      circle at 89% 76%,
+      rgba(218, 180, 139, 0.13) 0 15%,
+      transparent 16%
+    );
+}
+
+
+/* subtle connecting lines */
+
+.about-visual::before,
+.about-visual::after {
+  content: "";
+  position: absolute;
+  height: 1px;
+  background: rgba(89, 112, 118, 0.35);
+  transform-origin: left center;
+}
+
+.about-visual::before {
+  width: 42%;
+  left: 56%;
+  top: 55%;
+  transform: rotate(-27deg);
+}
+
+.about-visual::after {
+  width: 31%;
+  left: 67%;
+  top: 55%;
+  transform: rotate(25deg);
+}
+
+
+/* ---------------------------------------------------------
+   Responsive
+   --------------------------------------------------------- */
+
+@media (max-width: 768px) {
+
+  .about-visual {
+    width: 60%;
+    height: 11rem;
+    right: -5%;
+    top: 0.5rem;
+    opacity: 0.30;
+  }
+}

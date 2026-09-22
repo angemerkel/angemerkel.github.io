@@ -11,13 +11,13 @@ I am a bioinformatician and computational biologist with a background spanning g
 
 I started in biology and moved into bioinformatics at a time when the field was still establishing itself as such. Over the years, my work has changed from individual data analyses to developing pipelines and software, managing data, working on large collaborative projects, and eventually building and leading a bioinformatics core facility.
 
-I have always been interested in the path from the biological question to the computational solution - understanding the science, working with the data, choosing or developing the right tools, and creating the systems that allow this work to be done reproducibly and sustainably.
+I have always been interested in how to get from the biological question to the computational solution - understanding the science, working with the data and with people, choosing or developing the right tools, and creating the ecosystems that allow this work to be done reproducibly and sustainably.
 
 ## Science and bioinformatics
 
 My scientific background is in genomics and molecular biology, with a strong focus on epigenomics and gene regulation. I have worked with genomic and epigenomic data across hematopoiesis, leukemia and cancer, as well as other biomedical research areas.
 
-Much of my work has involved DNA methylation, alongside transcriptomics and other functional genomics approaches.
+Much of my work has involved DNA methylation, alongside transcriptomics and other functional genomics approaches. From a bioinformatics perspective, this has involved statistical analysis of high-throughput data and the integration of multiple omic data types to address biological questions.
 
 ## From analysis to systems
 
@@ -27,7 +27,7 @@ What started with data analysis and computational methods increasingly turned in
 
 Leading a bioinformatics core facility made these connections very apparent. Good bioinformatics depends not only on the analysis itself, but also on how data enters a project, how workflows are run, how results are documented, how software and data are maintained, and how scientists and technical teams work together.
 
-As a result, these aspects have become an integral part of how I approach bioinformatics
+These aspects are now an integral part of how I approach bioinformatics.
 
 ## Where I am going
 
@@ -42,4 +42,5 @@ I write about some of these ideas in [Building Bioinformatics](https://angemerke
 I am also documenting what I am learning about machine learning and generative AI in [Catching up with AI](https://angemerkel.github.io/catching-up-with-ai/).
 
 For a more structured overview of my work, see [Projects](projects.qmd), [Experience](experience.qmd), or my CV.
+
 :::
