@@ -732,18 +732,8 @@ section.level2 > h2::before {
      Areas of work
      ---------------------------------------------------------- */
 
-  .areas-grid {
-    display: block;
-  }
-
-  .areas-grid > .column {
-    width: 100% !important;
-  }
-
   .area-of-work {
     min-height: auto;
-
-    width: 100% !important;
 
     padding: 0;
 
@@ -761,18 +751,8 @@ section.level2 > h2::before {
      Writing
      ---------------------------------------------------------- */
 
-  .writing-grid {
-    display: block;
-  }
-
-  .writing-grid > .column {
-    width: 100% !important;
-  }
-
   .writing-item {
     min-height: auto;
-
-    width: 100% !important;
 
     padding: 0;
 
@@ -794,6 +774,7 @@ section.level2 > h2::before {
     padding-bottom: 2rem;
   }
 }
+
 
 /* ============================================================
    About page
